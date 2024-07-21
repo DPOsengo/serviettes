@@ -32,7 +32,7 @@ public class GreetingServlet extends HttpServlet {
             out.println("<html>"
                     + "<head><title>Booking</title></head>");
             out.println("<body  bgcolor=\"#ffffff\">"
-                    + "<h2>Welcome to the bookinggg app servlet page !!!</h2>");
+                    + "<h2>Welcome to the booking app servlet page !!!</h2>");
             
             String username = request.getParameter("username");
             if (username != null && username.length() > 0) {

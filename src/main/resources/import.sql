@@ -15,6 +15,5 @@
 -- limitations under the License.
 --
 
--- You can use this file to load seed data into the database using SQL statements
-insert into RESTAURANT_TYPE ( NAME) values ( 'Super')
-insert into RESTAURANT_TYPE ( NAME) values ( 'miam')
+-- insert into RESTAURANTTYPE ( NAME) values ( 'Super')
+-- insert into RESTAURANTTYPE ( NAME) values ( 'miam')
