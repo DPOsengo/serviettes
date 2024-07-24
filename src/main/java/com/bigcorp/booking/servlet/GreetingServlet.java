@@ -35,6 +35,7 @@ public class GreetingServlet extends HttpServlet {
                     + "<h2>Welcome to the booking app servlet page !!!</h2>");
             
             String username = request.getParameter("username");
+            // Integer compteur = (Integer)
             if (username != null && username.length() > 0) {
                 RequestDispatcher dispatcher =
                         getServletContext().getRequestDispatcher("/response");
